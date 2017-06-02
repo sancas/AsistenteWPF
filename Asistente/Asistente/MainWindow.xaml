@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Asistente"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="200" Width="400" Background="Blue" Opacity="0.9"
+        AllowsTransparency="True" WindowStyle="None">
     <Grid>
-        
+        <Border BorderBrush="White" BorderThickness="1" Height="180" Margin="10,10,10,0" VerticalAlignment="Top">
+        </Border>
+        <Label x:Name="lblreconocimiento" Content="Bienvenido Asistente" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
     </Grid>
 </Window>
